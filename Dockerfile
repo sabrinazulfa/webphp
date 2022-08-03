@@ -1,4 +1,4 @@
 FROM nginx:latest
-COPY index.php /var/www/html
+COPY index.php
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
